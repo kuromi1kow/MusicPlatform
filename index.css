@@ -58,7 +58,7 @@ body {
     position: absolute;
     top: 40%;
     text-align: center;
-    color: rgb(255,118,41);
+    color: white;
     left: 150px;
     font-family: "Gill Sans", sans-serif;
   }
@@ -67,7 +67,7 @@ body {
     position: absolute;
     top: 50%;
     text-align: center;
-    color: rgb(255,118,41) ;
+    color: white;
     left: 150px;
     font-family: "Gill Sans", sans-serif;
   }
@@ -82,7 +82,7 @@ body {
     position: absolute;
     top: 45%;
     text-align: center;
-    color: rgb(255,118,41);
+    color: white;
     left: 150px;
     font-family: "Gill Sans", sans-serif;
   }
@@ -91,7 +91,7 @@ body {
     position: absolute;
     top: 55%;
     text-align: center;
-    color: rgb(255,118,41) ;
+    color: white ;
     left: 150px;
     font-family: "Gill Sans", sans-serif;
   }
