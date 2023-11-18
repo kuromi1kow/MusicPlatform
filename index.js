@@ -1,4 +1,3 @@
-
 document.addEventListener("keypress", function (event) {
     if (event.key === '1' ) {
       window.location.href = 'index.html#start';
