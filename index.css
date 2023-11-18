@@ -132,3 +132,17 @@ body {
     left: 160px;
     color: rgb(255,118,41) ;
 }
+.footer_name {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .footer_name2 {
+    font-weight: bold;
+    text-decoration: none;
+    top: 20px;
+    display: relative;
+  }
+  .footer_name:hover,
+  .footer_name2:hover {
+    color: orangered;
+  }
