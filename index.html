@@ -88,8 +88,8 @@
                 <div class="card1" style="width: 30rem;">
                     <img class="card-img-top" id="rio" src="img/80538dc.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title alboms_name">Rio</h4>
-                      <p class="card-text alboms_script">Buda solo.</p>   
+                      <h4 class="card-title alboms_name" >Rio</h4>
+                      <p class="card-text alboms_script" id="PH">Buda solo.</p>   
                       <button  class="btn btn-primary"style="background-color: black;" id="changeImageButton" onclick="changeImage()">Change albom</button>
 
                     </div>
@@ -100,7 +100,7 @@
                     <img class="card-img-top" id="second" src="img/second.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title alboms_name">Legacy</h4>
-                      <p class="card-text alboms_script">Yanix Legacy albom.</p>
+                      <p class="card-text alboms_script" id="ST">Yanix Legacy albom.</p>
                       <button  class="btn btn-primary"style="background-color: black;" id="second" onclick="changeImage2()">Change albom</button>
                     </div>
                   </div>
@@ -110,7 +110,7 @@
                     <img class="card-img-top" src="img/платина-platina-and-og-buda-сладких-снов-Cover-Art.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title alboms_name">Platina</h4>
-                      <p class="card-text alboms_script">Feat OG with Platina.</p>
+                      <p class="card-text alboms_script" id="OG">Feat OG with Platina.</p>
                       <button  class="btn btn-primary"style="background-color: black;" id="third" onclick="changeImage3()">Change albom</button>
                     </div>
                   </div>
@@ -210,5 +210,17 @@
     crossorigin="anonymous"
   ></script>
   <script src="index.js"></script>
-  <script src="jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#OG, #PH, #ST').hover(
+        function() {
+          $(this).css('color', 'rgb(255, 118, 41)');
+        },
+        function() {
+          $(this).css('color', 'white');
+        }
+      );
+    });
+  </script>
 </html>
