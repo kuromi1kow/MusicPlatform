@@ -45,7 +45,23 @@ body {
   .navbar-text:hover{
     color:orange
   }
-
+  .col-md-4{
+    width: 500px;
+}
+.card1{
+    position:relative; 
+    left: 100px;
+}
+.alboms_name{
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(255,118,41) ;
+    font-weight:bolderr;
+}
+.alboms_script{
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(255,118,41) ;
+    font-weight:bolderr;
+}
 
 
 
