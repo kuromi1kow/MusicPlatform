@@ -21,3 +21,4 @@ btnMute.addEventListener("click", function() {
 btnUnmute.addEventListener("click", function() {
   video.muted = false;
 });
+
