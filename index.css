@@ -41,6 +41,7 @@ body {
   position: relative;
   right: 50px;
   margin: 5px;
+  left: 0px;
 }
 .navbar-text:hover {
   color: orange;

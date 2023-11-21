@@ -1,78 +1,78 @@
 body {
-    zoom: 90%;
-    font-family:sans-serif;
-    margin: 0;
-    padding: 0;
-   background-color:black
-  }
+  zoom: 90%;
+  font-family:sans-serif;
+  margin: 0;
+  padding: 0;
+ background-color:black
+}
 .navbar{
-    position:static;
- }
-  .navbar-brand .logo {
-    width: 60px;
-    height: auto;
-    position: relative;
-    left: 30px
-  }
-  .navbar-nav .nav-item::after {
-    content: "\00a0";
-  }
-  .navbar-nav .nav-link1,
-  .navbar-nav .nav-link2,
-  .navbar-nav .nav-link3 {
-    font-weight: bold;
-    color: white;
-    font-family: "Gill Sans", sans-serif;
-    text-decoration: none;
-    margin: 10px;
-    position: relative;
-    left: 25px;
-  }
-  .navbar-nav .nav-link1:hover,
-  .navbar-nav .nav-link2:hover,
-  .navbar-nav .nav-link3:hover {
-    color: orange;
-  }
-  .navbar-text{
-    font-weight: bold;
-    color: white;
-    font-family: "Gill Sans", sans-serif;
-    text-decoration: none;
-    position: relative;
-    right: 50px;
-    margin: 5px;
-  }
-  .navbar-text:hover{
-    color:orange
-  }
-  .col-md-4{
-    width: 500px;
+  position:static;
+}
+.navbar-brand .logo {
+  width: 60px;
+  height: auto;
+  position: relative;
+  left: 30px
+}
+.navbar-nav .nav-item::after {
+  content: "\00a0";
+}
+.navbar-nav .nav-link1,
+.navbar-nav .nav-link2,
+.navbar-nav .nav-link3 {
+  font-weight: bold;
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  text-decoration: none;
+  margin: 10px;
+  position: relative;
+  left: 25px;
+}
+.navbar-nav .nav-link1:hover,
+.navbar-nav .nav-link2:hover,
+.navbar-nav .nav-link3:hover {
+  color: orange;
+}
+.navbar-text{
+  font-weight: bold;
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  text-decoration: none;
+  position: relative;
+  right: 50px;
+  margin: 5px;
+}
+.navbar-text:hover{
+  color:orange
+}
+.col-md-4{
+  width: 500px;
 }
 .card1{
-    position:relative; 
-    left: 100px;
+  position:relative; 
+  left: 100px;
 }
 .alboms_name{
-    font-family: "Gill Sans", sans-serif;
-    color: rgb(255,118,41) ;
-    font-weight:bolderr;
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(255,118,41) ;
+  font-weight:bolderr;
 }
 .alboms_script{
-    font-family: "Gill Sans", sans-serif;
-    color: rgb(255,118,41) ;
-    font-weight:bolderr;
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(255,118,41) ;
+  font-weight:bolderr;
 }
-  .footer_name {
-    font-weight: bold;
-    text-decoration: none;
-  }
-  .footer_name2 {
-    font-weight: bold;
-    text-decoration: none;
-    top: 20px;
-    display: relative;
-  }
-  .footer_name:hover,
-  .footer_name2:hover {
-    color: orangered;
-  }
+.footer_name {
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer_name2 {
+  font-weight: bold;
+  text-decoration: none;
+  top: 20px;
+  display: relative;
+}
+.footer_name:hover,
+.footer_name2:hover {
+  color: orangered;
+}
