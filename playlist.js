@@ -1,7 +1,7 @@
 const video = document.getElementById("myVideo");
 const btnPause = document.getElementById("btnPause");
 
-btnPause.addEventListener("click", function() {
+btnPause.addEventListener("click", function () {
   if (video.paused) {
     video.play();
     btnPause.textContent = "Pause";
@@ -14,11 +14,11 @@ btnPause.addEventListener("click", function() {
 const btnMute = document.getElementById("btnMute");
 const btnUnmute = document.getElementById("btnUnmute");
 
-btnMute.addEventListener("click", function() {
+btnMute.addEventListener("click", function () {
   video.muted = true;
 });
 
-btnUnmute.addEventListener("click", function() {
+btnUnmute.addEventListener("click", function () {
   video.muted = false;
 });
 

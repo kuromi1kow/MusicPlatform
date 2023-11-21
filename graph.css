@@ -1,11 +1,12 @@
-.navbar{
-  position:static;
+
+.navbar {
+  position: static;
 }
 .navbar-brand .logo {
   width: 60px;
   height: auto;
   position: relative;
-  left: 30px
+  left: 30px;
 }
 .navbar-nav .nav-item::after {
   content: "\00a0";
@@ -26,7 +27,7 @@
 .navbar-nav .nav-link3:hover {
   color: orange;
 }
-.navbar-text{
+.navbar-text {
   font-weight: bold;
   color: white;
   font-family: "Gill Sans", sans-serif;
@@ -35,6 +36,6 @@
   right: 50px;
   margin: 5px;
 }
-.navbar-text:hover{
-  color:orange
+.navbar-text:hover {
+  color: orange;
 }

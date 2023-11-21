@@ -1,13 +1,11 @@
 document.addEventListener("keypress", function (event) {
-    if (event.key === '1' ) {
-      window.location.href = 'index.html#start';
+    if (event.key === '1') {
+        window.location.href = 'index.html#start';
     } else if (event.key === '2') {
-      window.location.href = 'index.html#middle';
-    } else if (event.key === '3') {
-      window.location.href = 'index.html#end';
+        window.location.href = 'index.html#end';
     }
-  });
-  function changeImage() {
+});
+function changeImage() {
     var image = document.getElementById('rio');
     var imageSources = [
         'img/80538dc.jpg',
