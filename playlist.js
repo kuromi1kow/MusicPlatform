@@ -7,7 +7,7 @@ btnPause.addEventListener("click", function () {
     btnPause.textContent = "Pause";
   } else {
     video.pause();
-    btnPause.textContent = "Continue";
+    btnPause.textContent = "Play";
   }
 });
 

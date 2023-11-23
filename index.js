@@ -57,7 +57,7 @@ function changeImage2() {
     }
 }
 function changeImage3() {
-    var image = document.getElementById('third');
+    var image = document.getElementById('th');
     var imageSources = [
         "img/платина-platina-and-og-buda-сладких-снов-Cover-Art.jpg",
         'img/asasp2.jpg'

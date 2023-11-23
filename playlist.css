@@ -45,6 +45,18 @@ body {
 .navbar-text:hover{
   color:orange
 }
+.backgr {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .col-md-4{
   width: 500px;
 }
@@ -62,6 +74,16 @@ body {
   color: rgb(255,118,41) ;
   font-weight:bolderr;
 }
+audio::-webkit-media-controls-panel {
+  background-color:  rgb(255,118,35);
+ 
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: rgb(248, 248, 248);
+  border-radius: 50%;
+}
+
 .footer_name {
   font-weight: bold;
   text-decoration: none;
